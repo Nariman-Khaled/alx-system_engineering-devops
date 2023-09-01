@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Commit message :"
+echo "Commit message(1 word only):"
 read message
 git add .
 git commit -m $message
