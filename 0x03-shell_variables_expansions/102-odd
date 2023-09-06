@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -n '^' | grep -E -v '^[[:digit:]]*[02468]:' | cut -f2 -d:
